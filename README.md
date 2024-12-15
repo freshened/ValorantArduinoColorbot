@@ -2,8 +2,8 @@
 
 ## DISCLAIMER
 
+- **Cheat Detection**: This project was not aimed to be undetected and will never aim to do so.
 - **Compatibility**: This software is designed for Arduino Leonardo boards only.
-- **Cheat Detection**: I can not guarantee that this software is undetectable.
 - **Responsibility**: This software is intended for educational purposes only. I am not responsible for any account bans, penalties, or any other consequences that may result from using this tool. Use it at your own risk and be aware of the potential implications.
 
 ## Setup Instructions
@@ -23,15 +23,12 @@
 3. **Configure `settings.ini`**:
    - Adjust the settings in `settings.ini` according to your preferences, if you want to change keybinds you can find the values [here](https://learn.microsoft.com/windows/win32/inputdev/virtual-key-codes).
 
-4. **Run the Colorbot**:
+4. **In-Game Settings**:
+   - Set your in-game sensitivity to **0.5**.
+   - Change the enemy highlight color to **Purple**.
+     
+5. **Run the Colorbot**:
    - Execute the main script by running:
      ```bash
      py main.py
      ```
-
-5. **In-Game Settings**:
-   - Set your in-game sensitivity to **0.5**.
-   - Change the enemy highlight color to **Purple**.
-
-6. **Enjoy**:
-   - Have fun, but remember to play responsibly!
